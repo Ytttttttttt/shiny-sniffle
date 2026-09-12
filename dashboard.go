@@ -7,9 +7,22 @@ const dashboardHTML = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>up | dhanur.me</title>
+  <title>Up — Real-Time Health & Status Dashboard | dhanur.me</title>
+  <meta name="description" content="Real-time uptime monitoring and system health dashboard across all dhanur.me microservices, APIs, and infrastructure endpoints." />
+  <link rel="canonical" href="https://up.dhanur.me/" />
   <link rel="icon" href="https://raw.githubusercontent.com/kascit/kascit.github.io/raw-mirror/icons/favicon.svg" type="image/x-icon" />
-  <meta name="description" content="Live status dashboard for all dhanur.me services." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://up.dhanur.me/" />
+  <meta property="og:title" content="Up — Real-Time Health & Status Dashboard | dhanur.me" />
+  <meta property="og:description" content="Real-time uptime monitoring and system health dashboard across all dhanur.me microservices, APIs, and infrastructure endpoints." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/kascit/kascit.github.io/raw-mirror/images/branding/logo-light.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Up — Real-Time Health & Status Dashboard | dhanur.me" />
+  <meta name="twitter:description" content="Real-time uptime monitoring and system health dashboard across all dhanur.me microservices, APIs, and infrastructure endpoints." />
 
   <!-- Trusted Types default policy (must run before ANY script that uses innerHTML/script.src) -->
   <script>

@@ -3,32 +3,38 @@
   "apps": [
     {
       "name": "Home",
-      "url": "https://dhanur.me",
+      "url": "https://dhanur.me/",
       "icon": "fa-solid fa-house",
       "minRole": "guest"
     },
     {
       "name": "Linkr",
-      "url": "https://linkr.dhanur.me",
+      "url": "https://linkr.dhanur.me/",
       "icon": "fa-solid fa-link",
       "minRole": "guest"
     },
     {
       "name": "Tasks",
-      "url": "https://tasks.dhanur.me",
+      "url": "https://tasks.dhanur.me/",
       "icon": "fa-solid fa-clipboard-list",
       "minRole": "guest"
     },
     {
+      "name": "Stuff",
+      "url": "https://dhanur.me/stuff/",
+      "icon": "fa-solid fa-shapes",
+      "minRole": "guest"
+    },
+    {
       "name": "Auth",
-      "url": "https://auth.dhanur.me",
+      "url": "https://auth.dhanur.me/",
       "icon": "fa-solid fa-fingerprint",
       "category": "Core",
       "minRole": "guest"
     },
     {
       "name": "Status",
-      "url": "https://up.dhanur.me",
+      "url": "https://up.dhanur.me/",
       "icon": "fa-solid fa-heart-pulse",
       "category": "Core",
       "minRole": "guest"
