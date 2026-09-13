@@ -3,14 +3,14 @@ package main
 // dashboardHTML is the entire single-file frontend. It fetches /api/status,
 // renders a live status page styled with the dui.css system via shell.js.
 const dashboardHTML = `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Up — Real-Time Health & Status Dashboard | dhanur.me</title>
   <meta name="description" content="Real-time uptime monitoring and system health dashboard across all dhanur.me microservices, APIs, and infrastructure endpoints." />
   <link rel="canonical" href="https://up.dhanur.me/" />
-  <link rel="icon" href="https://raw.githubusercontent.com/kascit/kascit.github.io/raw-mirror/icons/favicon.svg" type="image/x-icon" />
+  <link rel="icon" type="image/x-icon" href="https://dhanur.me/favicon.ico" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -74,6 +74,7 @@ const dashboardHTML = `<!DOCTYPE html>
     favicon: false
   };
   </script>
+  <link rel="stylesheet" href="https://dhanur.me/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://dhanur.me/css/dui.css" />
   <script src="https://dhanur.me/js/shell.min.js" defer></script>
 
@@ -215,8 +216,8 @@ function renderCard(svc) {
   const pill = STATUS_COLORS[cur.status] || 'pill-unknown';
   const lbl  = STATUS_LABELS[cur.status] || 'Unknown';
 
-  return '<div class="card bg-base-100 border border-base-content/10 rounded-2xl shadow-sm">' +
-    '<div class="card-body py-4 px-5 gap-3">' +
+  return '<div class="eco-card p-5">' +
+    '<div class="flex flex-col gap-3">' +
       // Row 1: icon + name + status + latency
       '<div class="flex items-center justify-between gap-3">' +
         '<div class="flex items-center gap-3">' +
