@@ -72,7 +72,7 @@ const dashboardHTML = `<!DOCTYPE html>
     favicon: false
   };
   </script>
-  <link rel="stylesheet" href="https://dhanur.me/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://dhanur.me/css/font-awesome.subset.css" />
   <link rel="stylesheet" href="https://dhanur.me/css/dui.css" />
   <script src="https://dhanur.me/js/shell.min.js" defer></script>
 
