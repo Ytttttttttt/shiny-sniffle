@@ -63,8 +63,6 @@ const dashboardHTML = `<!DOCTYPE html>
   <script>
   window.SiteNavConfig = {
     mode: "navbar",
-    nav: [{ name: "Home", url: "https://dhanur.me/", icon: "fa-solid fa-house" }],
-    sidebarNav: [],
     activePath: window.location.pathname,
     badge: { text: "STATUS", class: "badge-neutral" },
     showSearch: false,
@@ -144,7 +142,6 @@ const dashboardHTML = `<!DOCTYPE html>
     <span>&copy; <span id="year">2026</span> Dhanur Relhan · refreshing every 30s</span>
     <div class="flex items-center gap-4">
       <span id="last-checked" class="font-mono text-xs opacity-60">—</span>
-      <a href="https://dhanur.me/" class="hover:text-base-content transition-colors">dhanur.me</a>
       <a href="https://github.com/kascit/up" class="hover:text-base-content transition-colors" target="_blank" rel="noopener noreferrer">Source</a>
     </div>
   </footer>
