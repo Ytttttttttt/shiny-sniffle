@@ -127,12 +127,13 @@ const dashboardHTML = `<!DOCTYPE html>
 <main class="eco-page eco-container">
 
   <!-- Page header -->
-  <div class="mb-10">
-    <div class="flex items-center gap-3 mb-3">
-      <span id="global-dot" class="w-3 h-3 rounded-full bg-base-content/20"></span>
-      <h1 class="text-4xl lg:text-5xl font-extrabold tracking-tight" id="global-title">Checking…</h1>
+  <div class="mb-10 text-center sm:text-left">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 mb-3">
+      <span id="global-dot" class="w-2 h-2 rounded-full bg-base-content/20"></span>
+      <span>Infrastructure Health</span>
     </div>
-    <p class="text-base-content/60 text-sm" id="global-sub">Fetching service health…</p>
+    <h1 class="text-3xl sm:text-4xl font-black tracking-tight mb-2" id="global-title">Checking…</h1>
+    <p class="text-base text-base-content/70 m-0" id="global-sub">Fetching service health…</p>
   </div>
 
   <!-- Service cards -->

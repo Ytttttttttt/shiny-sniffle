@@ -27,6 +27,7 @@ var defaultManifest = ManifestResponse{
 		{Name: "Home", URL: "https://dhanur.me", Icon: "fa-solid fa-house", MinRole: "guest"},
 		{Name: "Linkr", URL: "https://linkr.dhanur.me", Icon: "fa-solid fa-link", MinRole: "guest"},
 		{Name: "Tasks", URL: "https://tasks.dhanur.me", Icon: "fa-solid fa-clipboard-list", MinRole: "guest"},
+		{Name: "Stuff", URL: "https://dhanur.me/stuff/", Icon: "fa-solid fa-shapes", MinRole: "guest"},
 		{Name: "Auth", URL: "https://auth.dhanur.me", Icon: "fa-solid fa-fingerprint", MinRole: "guest", Category: "Core"},
 		{Name: "Status", URL: "https://up.dhanur.me", Icon: "fa-solid fa-heart-pulse", MinRole: "guest", Category: "Core"},
 	},
